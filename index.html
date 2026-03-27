@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВЛАД ТЫЧКО | Официальный сайт</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Навигация */
+        nav {
+            background: #fff;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo { font-weight: bold; font-size: 1.5rem; color: #d4af37; }
+
+        /* Главный блок */
+        .hero {
+            padding: 80px 10%;
+            text-align: center;
+            background: #fff;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* Стиль для добавленной фотографии */
+        .hero-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid #f0f0f0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .hero h1 { font-size: 4rem; margin: 0; color: #222; }
+        .hero p { font-size: 1.5rem; color: #777; margin: 20px 0; }
+
+        /* Таблица с информацией */
+        .info-section {
+            padding: 60px 10%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .main-table {
+            width: 100%;
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-collapse: collapse;
+        }
+
+        .main-table td {
+            padding: 25px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 1.2rem;
+        }
+
+        .label { font-weight: bold; color: #555; background: #fafafa; width: 35%; }
+        .status-low { color: #e74c3c; font-weight: bold; }
+
+        /* Секция навыков */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px 0;
+        }
+
+        .feature-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #eee;
+            transition: 0.3s;
+        }
+
+        .feature-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+
+        /* Кнопка */
+        .cta-container { text-align: center; margin: 50px 0; }
+        .btn {
+            background: #0088cc;
+            color: #fff;
+            padding: 20px 50px;
+            text-decoration: none;
+            font-size: 1.4rem;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+            display: inline-block;
+        }
+        .btn:hover { background: #006699; transform: scale(1.05); }
+
+        footer { text-align: center; padding: 40px; color: #aaa; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">ВЛАД ТЫЧКО</div>
+    <div>Портфолио 2024</div>
+</nav>
+
+<section class="hero">
+    <!-- Добавленная фотография -->
+    <img src="maxresdefault.jpg" alt="Влад Тычко" class="hero-img">
+    <h1>Влад Тычко</h1>
+    <p>Ведущий специалист по созданию иллюзий и управлению потоками воздуха</p>
+</section>
+
+<section class="info-section">
+    <table class="main-table">
+        <tr>
+            <td class="label">Текущая позиция</td>
+            <td>Воздухан (уровень: Магистр пустословия)</td>
+        </tr>
+        <tr>
+            <td class="label">Социальный статус</td>
+            <td class="status-low">Опущенный в иерархии ответственности</td>
+        </tr>
+        <tr>
+            <td class="label">Основной проект</td>
+            <td>«Пыль в глаза» — глобальный стартап без продукта</td>
+        </tr>
+        <tr>
+            <td class="label">Репутация</td>
+            <td>Ниже рыночного минимума</td>
+        </tr>
+        <tr>
+            <td class="label">Достижения</td>
+            <td>Продал 1000 кубометров воздуха под видом инвестиций</td>
+        </tr>
+        <tr>
+            <td class="label">Особые приметы</td>
+            <td>Исчезает при слове «ответственность»</td>
+        </tr>
+    </table>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>Мастерство</h3>
+            <p>Умение убедительно рассказывать о планах, которых не существует.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Прозрачность</h3>
+            <p>Его обещания прозрачны настолько, что их невозможно увидеть.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Эффективность</h3>
+            <p>Нулевой результат при максимальных затратах чужого времени.</p>
+        </div>
+    </div>
+
+    <div class="cta-container">
+        <a href="https://onlyfans.com" target="_blank" class="btn">ПОДДЕРЖАТЬ ВОЗДУХАНА</a>
+    </div>
+</section>
+
+<footer>
+    &copy; 2024 Влад Тычко. Все права на воздух защищены.
+</footer>
+
+</body>
+</html>
